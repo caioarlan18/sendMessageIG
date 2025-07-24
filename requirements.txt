@@ -1,0 +1,3 @@
+Flask==2.3.2
+instagrapi==1.21.10
+gunicorn==20.1.0
