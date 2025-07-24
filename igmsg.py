@@ -26,6 +26,7 @@ def do_login():
 def ensure_logged_in():
     if not cl.user_id:
         do_login()
+    
 
 @app.route('/send-message', methods=['POST'])
 def send_message():
